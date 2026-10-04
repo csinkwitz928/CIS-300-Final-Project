@@ -1,0 +1,159 @@
+#wrapper{
+    background-color: #d0dfbf;
+	border-color: #000033;
+}
+
+h1{
+    background-color: #adda9c;
+}
+
+h2{
+    background-color: #adda9c;
+}
+
+h3{
+    background-color: #adda9c;
+}
+
+text{
+    text-align: center;
+}
+
+header :link {
+	color: #000000;
+}
+header :visited {
+	color: #303d2c;
+}
+header :hover {
+	color: #1c465b;
+}
+nav{
+    background-color: #ffffff;
+}
+nav ul{
+	list-style-type:none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+    text-decoration: none;
+	}
+:link{
+	color: #000000;
+	}	
+:visited{
+	color: #303d2c;
+	}
+:hover{
+	color: #1c465b;
+	}
+
+a{
+    text-decoration: none;
+}
+
+main ul{
+    list-style-type:none;
+	margin: 0;
+	padding-left: 0;
+    text-decoration: none;
+}
+
+#taggycentral{
+	height: 300px;
+	background-image: url(tagalong.jpeg);
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+	margin-left: 37em;
+	margin-top: 3em;
+	}
+
+#tagalongchristmas{
+	height: 300px;
+	background-image: url(christmas.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+}
+
+#tagalongdad{
+	height: 300px;
+	background-image: url(snugglingdad.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+#tagalongdryer{
+	height: 300px;
+	background-image: url(dryer.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+#tagalongjoey{
+	height: 300px;
+	background-image: url(featuringjoey.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+#tagalongdinner{
+	height: 300px;
+	background-image: url(dinnertime.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+#tagalongblep{
+	height: 300px;
+	background-image: url(blep.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+#tagalongsideways{
+	height: 300px;
+	background-image: url(sidewayssleep.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+#tagalongboat{
+	height: 300px;
+	background-image: url(boatnap.jpeg);
+	background-size: 40% 200%;
+	background-repeat: no-repeat;
+	align-items: center;
+	margin-left: 35em;
+	margin-top: 2em;
+}
+
+footer{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+	text-decoration-style: wavy;
+}
+
+
