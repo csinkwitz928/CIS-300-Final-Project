@@ -8,6 +8,7 @@
         </title>
         <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+        <meta name = "description" content = "Tagalong.Com homepage, with links to additional resources on cat care and a form to contact the website owner.">
     </head>
     <body>
         <div id = "wrapper">
@@ -42,12 +43,56 @@
             <h3>
                 Additional Resources
             </h3>
-            <ul>
-                <li> <a href = "https://www.purina.com/articles/cat/health/routine-care/how-to-care-for-a-cat"> Cat Care (Purina)</a> </li>
-                <li> <a href = "https://www.aspca.org"> Animal Resources </a> </li>
-                <li> <a href = "https://www.azhumane.org/adopt/?utm_source=google&utm_medium=cpc&utm_campaign=big_adoptions_paid_search&utm_source=google&utm_medium=cpc&utm_campaign=big_adoptions"> Local Shelters</a> </li>
-            </ul>
-             </main>
+            <table>
+            <thead>
+                <tr>
+                    <th id = "Organization"> Organization </th>
+                    <th id = "Link"> Link </th>
+                    <th id = "Purpose"> Purpose </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td headers ="Organization">Purina</td>
+                    <td headers = "Link"><a href = "https://www.purina.com/articles/cat/health/routine-care/how-to-care-for-a-cat"> Cat Care (Purina)</a></td>
+                    <td headers = "Purpose">Cat Daily Routine Resources</td>
+                </tr>
+                <tr>
+                    <td headers ="Organization">ASPCA</td>
+                    <td headers = "Link"><a href = "https://www.aspca.org"> Animal Resources </a></td>
+                    <td headers = "Purpose">Animal Care (National Level)</td>
+                </tr>
+                <tr>
+                    <td headers = "Organization"> Arizona Humane Society</td>
+                    <td headers = "Link"><a href = "https://www.azhumane.org/adopt/?utm_source=google&utm_medium=cpc&utm_campaign=big_adoptions_paid_search&utm_source=google&utm_medium=cpc&utm_campaign=big_adoptions"> Local Shelters</a></td>
+                    <td headers = "Purpose">Animal Care (Local Level)</td>
+                </tr>
+            </tbody>
+            </table>
+            <h3>
+                Contact Us!
+            </h3>
+            <form method = "post" action = "#">
+                <label for = "myFirstName">
+                    First Name:
+                </label>
+                <input type = "text" name = "myFirstName" id = "myFirstName">
+                <label for = "myLastName">
+                    Last Name:
+                </label>
+                <input type = "text" name = "myLastName" id = "myLastName">
+                 <label for = "myEmail">
+                    Email:
+                </label>
+                <input type = "email" name = "myEmail" id = "myEmail">
+                <label for="comments">
+                    Comments:
+                </label>
+                <textarea name="comments" id="comments" rows="2" cols="30">
+                </textarea>
+            <input type = "submit"  value = "Submit">
+            </form>
+            </main>
             <footer>
                 <br>Copyright Cal Sinkwitz © 2026
                 <br><a href = "mailto:ksinkwit@asu.edu"> ksinkwit@asu.edu </a>
